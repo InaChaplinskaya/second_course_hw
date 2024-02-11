@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #000915;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header__title {
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 217px;
+  margin-bottom: 32px;
+}
+
+.header__description {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.header__link {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  display: block;
+  margin-top: 44px;
+  color: #FFF;
+  border: none;
+}
+
+.games-box {
+  height: 556px;
+  display: flex;
+  align-items: center;
+}
+
+.games-box__content {
+  display: flex;
+  gap: 32px;
+}
+
+.games-box__img {
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
