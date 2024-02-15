@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header__title {
+        padding-top: 238px;
+        height: 77px;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .header__description {
+        height: 66px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .header__link {
+        margin-top: 32px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .games-box__img {
+        gap: 32px;
+
+    }
+
+    .games-box__content {
+        flex-wrap: wrap;
+        padding-bottom: 127px;
+    }
+
+}
