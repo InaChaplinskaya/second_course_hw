@@ -48,7 +48,8 @@ button {
   font-weight: 400;
   line-height: 32px;
   max-width: 480px;
-  &_thick{
+
+  &_thick {
     font-weight: 700;
   }
 }
@@ -62,10 +63,17 @@ button {
   margin-top: 44px;
   color: #FFF;
   border: none;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+
+  &:hover {
+    background: #EB443F;
+  }
 }
 
 .games-box {
-  height: 556px;
+  // height: 556px;
   display: flex;
   align-items: center;
 }
@@ -81,6 +89,60 @@ button {
   aspect-ratio: 378/300;
   flex-shrink: 0;
   border-radius: 16px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+  }
 }
 
-@import'mobile'
+.game-block {
+  display: flex;
+  align-items: center;
+  gap: 64px 135px;
+  height: 800px;
+
+  &__left {
+    gap: 135px;
+  }
+}
+
+.game-block__seasons {
+  font-size: 48px;
+  color: #FFF;
+  width: 700;
+  margin-bottom: 32px;
+
+  &_number {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+.game-block__link {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  display: block;
+  margin-top: 32px;
+  color: #FFF;
+  border: none;
+
+  &:hover {
+    background: #EB443F;
+  }
+}
+
+.game-block__img {
+  width: 485px;
+  height: 333px;
+  // padding-top: 233px;
+  // padding-bottom: 233px;
+  // padding-right: 116px;
+}
+
+@import 'mobile';
