@@ -98,6 +98,9 @@ button {
   gap: 64px 135px;
   height: 800px;
 }
+.game-block_reversed {
+  flex-direction: row-reverse;
+}
 .game-block__left {
   gap: 135px;
 }
@@ -132,6 +135,19 @@ button {
 .game-block__img {
   width: 485px;
   height: 333px;
+}
+
+.game-block__words {
+  font-size: 48px;
+  color: #FFF;
+  width: 700;
+  margin-bottom: 32px;
+}
+.game-block__words_remember {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 @media (max-width: 767px) {
@@ -184,5 +200,13 @@ button {
   }
   .game-block__img {
     width: 100%;
+  }
+  .game-block__words {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+  .game-block__words_remember {
+    font-size: 14px;
+    margin-bottom: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

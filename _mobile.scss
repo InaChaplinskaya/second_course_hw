@@ -63,4 +63,13 @@
 
     }
 
+    .game-block__words {
+        margin-bottom: 32px;
+        font-size: 32px;
+
+        &_remember {
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+    }
 }
