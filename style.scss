@@ -103,6 +103,10 @@ button {
   gap: 64px 135px;
   height: 800px;
 
+  &_reversed {
+    flex-direction: row-reverse;
+  }
+
   &__left {
     gap: 135px;
   }
@@ -140,9 +144,21 @@ button {
 .game-block__img {
   width: 485px;
   height: 333px;
-  // padding-top: 233px;
-  // padding-bottom: 233px;
-  // padding-right: 116px;
+}
+
+.game-block__words {
+  font-size: 48px;
+  color: #FFF;
+  width: 700;
+  margin-bottom: 32px;
+
+  &_remember {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
 }
 
 @import 'mobile';
