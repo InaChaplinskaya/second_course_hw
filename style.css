@@ -76,6 +76,7 @@ button {
 
 .games-box__content {
   display: flex;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -108,7 +109,6 @@ button {
 .game-block__seasons {
   font-size: 48px;
   color: #FFF;
-  width: 700;
   margin-bottom: 32px;
 }
 .game-block__seasons_number {
@@ -140,7 +140,6 @@ button {
 .game-block__words {
   font-size: 48px;
   color: #FFF;
-  width: 700;
   margin-bottom: 32px;
 }
 .game-block__words_remember {
@@ -150,6 +149,56 @@ button {
   line-height: 32px;
 }
 
+.enigma {
+  padding-top: 276px;
+  background-image: url(img/game6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.enigma-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.enigma-block_play {
+  font-size: 48px;
+  color: #FFF;
+  margin-bottom: 32px;
+}
+.enigma-block_task {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.enigma-block__link {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  display: block;
+  margin-top: 32px;
+  color: #FFF;
+  border: none;
+}
+.enigma-block__link:hover {
+  background: #EB443F;
+}
+
+.footer__reserved {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -157,20 +206,17 @@ button {
   }
   .header__title {
     padding-top: 238px;
-    height: 77px;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
   }
   .header__description {
-    height: 66px;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 32px;
     text-align: center;
   }
   .header__link {
-    margin-top: 32px;
     margin: 0 auto;
     display: block;
   }
@@ -206,6 +252,17 @@ button {
     font-size: 32px;
   }
   .game-block__words_remember {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .enigma {
+    padding-top: 52px;
+  }
+  .enigma-block_play {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+  .enigma-block_task {
     font-size: 14px;
     margin-bottom: 32px;
   }
