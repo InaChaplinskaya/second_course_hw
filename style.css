@@ -190,9 +190,15 @@ button {
   background: #EB443F;
 }
 
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer__reserved {
   color: #FFF;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 32px;
   display: flex;
@@ -266,4 +272,6 @@ button {
     font-size: 14px;
     margin-bottom: 32px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
