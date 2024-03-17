@@ -44,8 +44,8 @@ let p = 'abcdef';
 let c = p.split('').reverse().join('');
 console.log(c);
 // task 9
-const arr =[[1, 2, 3],[4, 5, 6]];
-const flatArr = arr.flat();
+const arr2D =[[1, 2, 3],[4, 5, 6]];
+const flatArr = arr2D.flat();
 console.log(flatArr);
 // task 10
 let numbers = [3, 7, 1, 9, 5, 4, 2, 8, 6, 10];
