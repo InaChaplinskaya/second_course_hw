@@ -1,14 +1,14 @@
 // task 1
-const people = [
+const peopleName = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
     { name: 'Олег', age: 7 },
     { name: 'Оксана', age: 47 }
 ];
 
-people.sort((person1, person2) => person1.age - person2.age);
+peopleName.sort((person1, person2) => person1.age - person2.age);
 
-console.log(people);
+console.log(peopleName);
 // task 2
 function isPositive(num) {
 return num > 0
@@ -54,7 +54,7 @@ delayForSecond(function () {
     console.log('Привет, Глеб!');
 });
 // task 5
-function delayForSecond(cb) {
+function delayForSecondFunction(cb) {
     setTimeout(() => {
         console.log('Прошла одна секунда');
         if(cb) {  cb(); }
@@ -63,4 +63,4 @@ function delayForSecond(cb) {
 function sayHi (name) {
     console.log('Привет, ${name}!');
 }
-delayForSecond(() => sayHi('Глеб'))
+delayForSecondFunction(() => sayHi('Глеб'))
